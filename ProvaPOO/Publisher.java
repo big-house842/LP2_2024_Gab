@@ -1,0 +1,33 @@
+package ProvaPOO;
+
+public class Publisher {
+    
+    private String name, location;
+
+    public Publisher(String name, String location) {
+        this.name = name;
+        this.location = location;
+    }
+
+    public Publisher() {
+        this.name = null;
+        this.location = null;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+}
